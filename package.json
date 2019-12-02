@@ -14,14 +14,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+{GIT-URL-HERE}.git"
+    "url": "git+https://github.com/gpitot/kind-image.git"
   },
   "author": "Guillaume Pitot",
   "license": "MIT",
   "bugs": {
-    "url": "{GIT-URL-HERE}/issues"
+    "url": "https://github.com/gpitot/kind-image/issues"
   },
-  "homepage": "{GIT-URL-HERE}#readme",
+  "homepage": "https://github.com/gpitot/kind-image#readme",
   "devDependencies": {
     "@babel/core": "^7.6.4",
     "@babel/preset-env": "^7.6.3",
