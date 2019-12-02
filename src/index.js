@@ -6,11 +6,8 @@ class KindImage extends HTMLImageElement {
   
       const bestImage = new Image();
       bestImage.onload = () => {
-        setTimeout(() => {
-            
-          this.setAttribute("src", this.getAttribute("image"));
-          this.setAttribute('style', "filter:none")
-        }, 1000);
+        this.setAttribute("src", this.getAttribute("image"));
+        this.setAttribute('style', "filter:none")
       };
       bestImage.src = this.getAttribute("image");
     }
